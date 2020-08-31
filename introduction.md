@@ -1,40 +1,35 @@
-## Documentation
+### Accueil
+
+
+## Introduction
 ![Logo](https://clientx.fr/assets/images/ClientXLight.png "ClientX")
 
+[ClientX](https://clientx.fr/) est votre **copilote idéal dernière génération** qui a pour objectif de vous et votre entreprise aider au quotidiens dans l'hébergement de données, **gestion de client**, **facturation**, **taxes**, **création de service** et **paiement**.
+
+ClientX s'utilise avec des **ressources** pour ajouter facilement des fonctionnalités et personnaliser entièrent votre espace client sans toucher aux sources accèsible facilement sur [notre market](https://clientx.fr/market). Grâce aux nombreux **modules** ajoutant des fonctionnalités complètes tels que la livraison automatique **Proxmox** ou le paiment par **PayPal** et bien plus !
+Des **thèmes** communautaire sont disponibles pour tout les goûts et envie.
+
+Les sources de ClientX ont été développés à la main sans framework PHP particulier. L'utilisation de [composer](https://getcomposer.org) pour les dépendences.
+
+Dans cette documentation les informations important sur le fonctionnement du cms, la configuration en allant à la création de ressources et bien d'autre chose !
+
+Vous pouvez modifier cette page via notre [github](https://github.com/clientXCMS) en proposant des pull requests. Si vous avez besoin d'aide ou une question. Contactez nous via notre [serveur discord](https://clientx.fr/discord) ou via le [support](https://clientx.fr/account/support).
+
+
 **Prérequis**
-- PDO
-- PHP 7.4+
-- MySQL
-- Extension GD PHP
-- Composer
-- Extension JSON
-....
 
 **Modules préinstallés**
 - Account
 - Auth
 - Admin
-- Basket
-- Contact
 - Main
-- PayPal
-- Paysafecard
-- Pterodactyl
 - Shop (comprennant les services)
 - Support
-- Task
-- Wiki
-
-**Installer ou retirer des modules**
-
-Il faut faire preuve de bon sens. Si vous désactiver le module de Authentification, Forcement, vous pourrez plus vous connecter à rien. Soyez logique. Mais vous pouvez Désactiver des modules. Il suffit de commenter la ligne dans le fichier ```/public/index.php``` qui devrait resembler à ça : ``->addModule(App\Wiki\WikiModule::class)``. Egalement, si il y a des middlewares qui sont rajouter par le modules il faut faire le même procéder avec la méthode ``->pipe(App\Wiki\WikiMiddleware::class)``. 
-
-Pour ajouter, tout simplement suivez la documentation du module, c'est du cas par cas pour l'installation de module.
 
 
 **Installation**
 
-1) Mettre à jours les dépendances via Composer
+1) Installer les dépendances via Composer
 
    Pour Mettre à jours, il suffit de faire la commande suivante dans le dossier ou ce trouve l'espace client : 
     ```composer.phar update```
