@@ -22,7 +22,7 @@ src/  <-- Dossier contenant les différents modules installés
 
 ## config.php
 
-Le fichier `config.php` est un fichier de définition, peut être renomer, placer n'importe où dans les sources. Il doit retourner un *tableau PHP* et sera injecter dans le **[injecteur de dépendance](https://php-di.org). 
+Le fichier `config.php` est un fichier de définition, peut être renomer, placer n'importe où dans les sources. Il doit retourner un *tableau PHP* et sera injecter dans le **[injecteur de dépendance](https://php-di.org)**. 
 
 ```
 <?php
