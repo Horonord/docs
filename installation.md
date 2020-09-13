@@ -37,7 +37,7 @@ chmod -R 755 /var/www/clientx
 ```
 ou si l'utilisateur actuel n'est pas le même que celui du serveur web : 
 ```
-chown -R www-data:www-data /var/www/azuriom
+chown -R www-data:www-data /var/www/clientx
 ```
 4. Installer les dépendances avec [Composer](https://getcomposer.org)
 ```
