@@ -4,11 +4,11 @@
 
 ![Logo](https://clientx.fr/assets/images/ClientXLight.png "ClientX")
 
-[ClientX](https://clientx.fr/) est votre **copilote idéal dernière génération** qui a pour objectif de vous et votre entreprise aider au quotidiens dans l'hébergement de données, **gestion de client**, **facturation**, **taxes**, **création de service** et **paiement**.
+[ClientX](https://clientx.fr/) est votre copilote idéal de dernière génération qui a pour objectif de vous et votre entreprise aider au quotidiens dans l'hébergement de données, gestion de clients, facturation, taxes, création de service et paiement.
 
 ClientX s'utilise avec des **ressources** pour ajouter facilement des fonctionnalités et personnaliser entièrent votre espace client sans toucher aux sources accèsible facilement sur [notre market](https://clientx.fr/market).
-Grâce aux nombreux **modules** ajoutant des fonctionnalités complètes tels que la livraison automatique **Proxmox** ou le paiment par **PayPal** et bien plus !
-Des **thèmes** communautaire sont disponibles pour tout les goûts et envie.
+Grâce aux nombreux modules ajoutant des fonctionnalités complètes telles que la livraison automatique Proxmox ou le paiement par Paypal et bien plus !
+Des thèmes communautaires sont disponibles pour tous les goûts et envie
 
 Les sources de ClientX ont été développés à la main sans framework PHP particulier.
 L'utilisation de [composer](https://getcomposer.org) pour les dépendences.

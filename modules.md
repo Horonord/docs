@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Un module vous permet d'ajouter de nouvelles fonctionnalités à clientx, vous pouvez en créer qui correspond à vos besoins ou regarder notre [place de marché](https://clientx.fr/market).
+Un module vous permet d'ajouter de nouvelles fonctionnalités à clientx, vous pouvez en créer qui correspond à vos besoins ou regarder  notre [place de marché](https://clientx.fr/market).
 
 ## Strusture
 

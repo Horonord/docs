@@ -13,7 +13,7 @@
 
 ## Informations
 
-Le CMS peut être installer sur un **serveur privée virtuel (VPS)**, **serveur dédié** ou **hébergement web**. Si vous utilisez les deux premières solutions, il sera sûrement nécéssaire d'installer vous même les prérequis.
+Le CMS peut être installer sur un serveur privé virtuel (VPS), serveur dédié ou hébergement web. Si vous utilisez les deux premières solutions, il sera sûrement nécessaire d'installer vous même les prérequis.
 
 ## Modules préinstallés
 - Account
@@ -43,31 +43,9 @@ Le CMS peut être installer sur un **serveur privée virtuel (VPS)**, **serveur 
 #### 4) Premier compte
 
    Pour créer votre premier *administrateur* il vous suffit de suivre le processus de création et d'accepter les EULA.
-   
-#### 5) URL
+#### 5) Permission
 
-   Il est possible que si vous taper ```votredomain.fr/client``` il ne répond pas ou répond une erreur 404, dans ce cas. Créer un fichier ```.htaccess``` à la racine web.
+    Après l'installation de CLIENTX il est possible que le dossier tmp ne puisse pas se créer. Il faudra donc donner la permission d'écriture, et de lecture documentation
 
-   #### Apache :
-   ```
-    Options +FollowSymLinks -Indexes
-    RewriteEngine On
-
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
-   ```
-   
-   ##### Nginx :
-
-   ```
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
-   ```
-#### 6) Permission
-
-   Après l'installation de CLIENTX il est possible que le dosiser `tmp` ne puisse pas se créer. Il faudra donc donner la permission d'écriture, et de lecture.
-
-#### 7) Email
-   Vous pouvez modifier les messages des emails vous acheter des packs de emails sur le marketplace. Pour utiliser le bon il suffit d'aller dans la configuration ( ```config/config.php```) Puis modifier la clée email.path.
+#### 6) Email
+   Vous pouvez modifier les messages des emails vous achetez des packs de emails sur le marketplace. Pour utiliser le bon il suffit d'aller dans la configuration ( config/config.php) Puis modifier la clé email.path.

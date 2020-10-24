@@ -1,9 +1,7 @@
 ### Base de données
 
 ## Introduction 
-Pour stocker les données, ClientXCMS utilise le **système relationnel MySQL**. Une base est obligatoire (vierge ou non) pour contenir les tables nécessaire au CMS.
-[PDO (PHP Data Objects)](https://www.php.net/manual/fr/book.pdo.php) est utilisé pour intéragir avec la base.
-Il faut donc que l'extension ainsi que [PDO MySQL](https://www.php.net/manual/fr/ref.pdo-mysql.php) soit installées sur votre système.
+Pour stocker les données, CLIENTX utilise le système relationnel MySQL. Une base est obligatoire (vierge ou non) pour contenir les tables nécessaires au CM. PDO (PHP Data Objets) est utilisé pour interagir avec la base. Il faut donc que l'extension ainsi que PDO MySQL soit installé sur votre système.
 
 ## Connection
 Les informations de connection à la base sont demandés dans le ```.env```. Ce fichier ne doit pas être versionner. Voici un exemple
@@ -17,7 +15,7 @@ DB_CHARSET=utf8
 ```
 ## Tester la connection
 
-Pour vérifier que la connection entre clientXCMS et MySQL soit bien opérationnelle. Ouvrez une page de l'application :
+Pour vérifier que la connection entre CLIENTX et MySQL soit bien opérationnelle. Ouvrez une page de l'application :
 Si la page vous renvoi le message d'erreur :
 `Erreur de connexion à la base de données` la connection n'a pas eu lieu. Pour plus de détails activez dans le ```.env``` le mode debug (APP_DEBUG) à "true".
 Attention, les identifiants peuvent apparaitre sur la page. Mais ça peut vous aider a résoudre le problème.
