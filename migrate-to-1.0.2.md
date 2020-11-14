@@ -12,6 +12,7 @@ Dans cette migration, beaucoup de problèmes corrigés, problèmes de typographi
 - Theme title
 - Facturation summernote
 - Product config link
+- ...
 
 Pour mettre à jour votre CMS. Téléchargez la nouvelle version depuis le market. Et envoyez les dossiers `/src`, `/public`, `/Themes` et `/Emails`. les fichiers `composer.json`.
-Tout devrait se mettre à jours. Dans votre Dashboard admin il devrait afficher "Version 1.0.2". En cas de problème, contactez le support.
+Tout devrait se mettre à jours. Il faudra également mettre à jours les packages. Dans votre Dashboard admin il devrait afficher "Version 1.0.2". En cas de problème, contactez le support.

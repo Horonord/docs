@@ -35,17 +35,17 @@ Pour
 
 Vous êtes perdu avec tout les hébergeurs ouverts ? Nous testons les hébergeurs pour vérifier leurs compatibilités avec CLIENTXCMS, voici une liste non exhaustive d'hébergeurs compatiable et fiable. Pour ajouter d'autres hébergeurs, contact-nous sur Discord.
 
-- [holycloud.fr](HolyCloud)
-- [blueserv.fr](BlueServ)
-- [pulseheberg.com](PulseHeberg)
+- [HolyCloud](holycloud.fr)
+- [BlueServ](blueserv.fr)
+- [PulseHeberg](pulseheberg.com)
 
 ## Installation
 
-Pour installer CLIENTXCMS, suivez les étapes suivantes. Dans notre cas, nous avons crée un sous domaine **deploy.clientx.fr**
+Pour installer CLIENTXCMS, suivez les étapes suivantes.
 - Avoir créer/choisis un sous/domaine
 - Téléchargez l'archive depuis CLIENTXMARKET
 - Placez les fichiers de l'archive dans votre FTP
 - Vérifiez que PHP est bien en version 7.4 ou plus
-- [clientx.fr/docs/database](Connectez-vous à votre base de données)
-- [clientx.fr/docs/change-doc-root](Modifiez la racine du document)
-- [clientx.fr/docs/composer](Installez les dépendances)
+- [Configurez la base de données](clientx.fr/docs/database)
+- [Modifier la racine du document](clientx.fr/docs/change-doc-root)
+- [Installer les dépendances](clientx.fr/docs/composer)
