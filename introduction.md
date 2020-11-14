@@ -15,4 +15,4 @@ L'utilisation de [composer](https://getcomposer.org) pour les dépendences.
 
 Vous pouvez modifier cette page via notre [github](https://github.com/clientXCMS) en proposant des pull requests.
 Si vous avez besoin d'aide ou une question.
-Contactez nous via notre [serveur discord](https://clientx.fr/discord) ou via le [support](https://clientx.fr/account/support).
+Contactez nous via notre [serveur discord](https://clientx.fr/discord) ou via le [support](https://clientx.fr/account/support) pour toutes questions.

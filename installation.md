@@ -14,38 +14,38 @@
 ## Informations
 
 Le CMS peut être installer sur un serveur privé virtuel (VPS), serveur dédié ou hébergement web. Si vous utilisez les deux premières solutions, il sera sûrement nécessaire d'installer vous même les prérequis.
+Pour 
 
 ## Modules préinstallés
-- Account
-- Auth
-- Admin
+- Compte
+- Authentification
+- Administration
+- Panier
 - Main
-- Shop
-- Support
+- PayPal
+- Pterodactyl (Minecraft)
+- Boutique & Services
+- Support technique
+- Tâche
+- Annonce
+- Contact
 
+
+## Comment choisir son hébergement
+
+Vous êtes perdu avec tout les hébergeurs ouverts ? Nous testons les hébergeurs pour vérifier leurs compatibilités avec CLIENTXCMS, voici une liste non exhaustive d'hébergeurs compatiable et fiable. Pour ajouter d'autres hébergeurs, contact-nous sur Discord.
+
+- [holycloud.fr](HolyCloud)
+- [blueserv.fr](BlueServ)
+- [pulseheberg.com](PulseHeberg)
 
 ## Installation
 
-#### 1) Installer les dépendances via Composer
-
-   Pour installer, il suffit de faire la commande suivante dans le dossier ou ce trouve l'espace client : 
-    ```composer.phar install --optimize-autoloader --no-dev```
-    Si la commande ne fonctionne pas,  Installez [Composer](https://getComposer.org) et réessayer.
-
-#### 2) Installation de la base de données
-
-   Veuillez vous référer à cette [Page](https://clientx.fr/docs/database)
-
-#### 3) Racine publique
-
-   Pour des mesures de sécurité, le code est un crant plus bas que le dossier ```/public```. Il faut juste pointer votre hébergeur web sur ce bon dossier ou faire une configuration Apache ou Nginx. Voir "URL"
-
-#### 4) Premier compte
-
-   Pour créer votre premier *administrateur* il vous suffit de suivre le processus de création et d'accepter les EULA.
-#### 5) Permission
-
-    Après l'installation de CLIENTX il est possible que le dossier tmp ne puisse pas se créer. Il faudra donc donner la permission d'écriture, et de lecture documentation
-
-#### 6) Email
-   Vous pouvez modifier les messages des emails vous achetez des packs de emails sur le marketplace. Pour utiliser le bon il suffit d'aller dans la configuration ( config/config.php) Puis modifier la clé email.path.
+Pour installer CLIENTXCMS, suivez les étapes suivantes. Dans notre cas, nous avons crée un sous domaine **deploy.clientx.fr**
+- Avoir créer/choisis un sous/domaine
+- Téléchargez l'archive depuis CLIENTXMARKET
+- Placez les fichiers de l'archive dans votre FTP
+- Vérifiez que PHP est bien en version 7.4 ou plus
+- [clientx.fr/docs/database](Connectez-vous à votre base de données)
+- [clientx.fr/docs/change-doc-root](Modifiez la racine du document)
+- [clientx.fr/docs/composer](Installez les dépendances)
