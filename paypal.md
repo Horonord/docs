@@ -9,11 +9,11 @@ PayPal vous permet d'accepter les paiements par carte bancaire et prélèvement 
 La mise en place de PayPal est très simple : il vous suffit de vous rendre sur votre [Panel Développeur PayPal](https://developer.paypal.com/developer/applications) puis de créer des identifiants API.
 
 Pour cela, il est nécéssaire d'aller dans La catégorie **Live** et de Cliquer sur "**Create App**" avec le nom souhaité (*par exemple : ClientX*). 
-![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/live.png "Catégorie Live")
-![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/creation.png "Création de la Clef")
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/paypal/live.png "Catégorie Live")
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/paypal/creation.png "Création de la Clef")
 
 Il vous suffira après de cliquer sur le **nom de votre application** (*ClientX dans notre cas*) et vous pourrez accèder aux informations de la clef API : le **Client ID** et le **Secret** (*Que vous devez générer si besoin*). 
-![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/informations.png "Informations")
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/paypal/informations.png "Informations")
 
 ## Intégration à ClientX
 
