@@ -3,8 +3,8 @@
 ## Introduction 
 Pour stocker les données, CLIENTX utilise le système relationnel MySQL. Une base est obligatoire (vierge ou non) pour contenir les tables nécessaires au CM. PDO (PHP Data Objets) est utilisé pour interagir avec la base. Il faut donc que l'extension ainsi que PDO MySQL soit installé sur votre système.
 
-## Connecxion
-Les informations de connection à la base sont demandés dans le ```.env```. Ce fichier ne doit pas être versionner. Voici un exemple
+## Connexion
+Les informations de connection à la base sont demandées dans le ```.env```. Ce fichier ne doit pas être versionné. Voici un exemple
 ```
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -13,6 +13,15 @@ DB_USER=root
 DB_PASS=root
 DB_CHARSET=utf8
 ```
+
+# Connexion depuis la 1.0.3
+
+Depuis la 1.0.3, les informations de connexion sont demandées directement dans le fichier **config.php** qui se trouve dans ```config/config.php```.
+
+Voici un exemple des informations à rentrer.
+
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/bdd/bdd.png "Base de Données")
+
 ## Tester la connection
 
 Pour vérifier que la connection entre CLIENTX et MySQL soit bien opérationnelle. Ouvrez une page de l'application :
