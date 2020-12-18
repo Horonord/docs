@@ -13,8 +13,7 @@
 
 ## Informations
 
-Le CMS peut être installer sur un serveur privé virtuel (VPS), serveur dédié ou hébergement web. Si vous utilisez les deux premières solutions, il sera sûrement nécessaire d'installer vous même les prérequis.
-Pour 
+Le CMS peut être installé sur un serveur privé virtuel (VPS), serveur dédié ou hébergement web. Si vous utilisez les deux premières solutions, il sera sûrement nécessaire d'installer vous même les prérequis.
 
 ## Modules préinstallés
 - Compte
@@ -33,7 +32,7 @@ Pour
 
 ## Comment choisir son hébergement
 
-Vous êtes perdu avec tout les hébergeurs ouverts ? Nous testons les hébergeurs pour vérifier leurs compatibilités avec CLIENTXCMS, voici une liste non exhaustive d'hébergeurs compatiable et fiable. Pour ajouter d'autres hébergeurs, contact-nous sur Discord.
+Vous êtes perdu avec tout les hébergeurs ouverts ? Nous testons les hébergeurs pour vérifier leurs compatibilités avec **CLIENTXCMS**, voici une liste non exhaustive d'hébergeurs compatibles et fiables. Pour ajouter d'autres hébergeurs, contactez-nous sur Discord.
 
 - [HolyCloud](https://holycloud.fr)
 - [SeaPerf](https://seaperf.com)
@@ -42,11 +41,11 @@ Vous êtes perdu avec tout les hébergeurs ouverts ? Nous testons les hébergeur
 
 ## Installation
 
-Pour installer CLIENTXCMS, suivez les étapes suivantes.
-- Avoir créer/choisis un sous/domaine
-- Téléchargez l'archive depuis CLIENTXMARKET
+Pour installer **CLIENTXCMS**, suivez les étapes suivantes.
+- Avoir créé/choisi un sous/domaine
+- Téléchargez l'archive depuis **CLIENTXMARKET**
 - Placez les fichiers de l'archive dans votre FTP
 - Vérifiez que PHP est bien en version 7.4 ou plus
 - [Configurez la base de données](https://clientx.fr/docs/database)
-- [Modifier la racine du document](https://clientx.fr/docs/change-doc-root)
-- [Installer les dépendances](https://clientx.fr/docs/composer)
+- [Modifiez la racine du document](https://clientx.fr/docs/change-doc-root)
+- [Installez les dépendances](https://clientx.fr/docs/composer)
