@@ -22,6 +22,12 @@ Voici un exemple des informations à rentrer.
 
 ![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/bdd/bdd.png "Base de Données")
 
+# Caractères Spéciaux
+
+Si vous avez une erreur de connexion à la base de données, c'est que vous avez sûrement mis des caractères spéciaux comme **``` @ %  ```** le fichier .env qui sert à stocker les identifiants (*version 1.0.3 et ultérieure comprise*).
+
+Nous vous demanderons donc d'enlever ces carractères spéciaux et de rééssayer.
+
 ## Tester la connection
 
 Pour vérifier que la connection entre CLIENTX et MySQL soit bien opérationnelle. Ouvrez une page de l'application :
