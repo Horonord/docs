@@ -1,11 +1,11 @@
 ### Pterodactyl
 
 ## Introduction
-[Pterodactyl](https://pterodactyl.io) est un panel de gestion et création de serveurs de Jeux.
+[Pterodactyl](https://pterodactyl.io) est un panel de gestion et de création de serveurs de Jeux.
 
 ## Mise en Place de Pterodactyl
 
-Pout mettre en Place pterodactyl sur votre serveur dédié ou VPS (Virtual Private Server), il suffit de suivre le tutoriel pour installer [le panel](https://pterodactyl.io).
+Pout mettre en place pterodactyl sur votre serveur dédié ou VPS (Virtual Private Server), il suffit de suivre le tutoriel pour installer [le panel](https://pterodactyl.io).
 
 Une fois cela fait, vous pouvez passer à l'étape suivante.
 
