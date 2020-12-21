@@ -34,6 +34,12 @@ Il faudrat ajouter la ligne ```->addModule(App\Stripe\StripeModule::class)``` da
 
 Actualisez la page de votre panel admin ClientX et l'option Stripe apparaîtra dans les options Administrateurs, il vous suffira juste de remplir les champs avec : la Clée Stripe, le Secret du Client Stripe et le Secret de l'ENDPOINT Stripe.
 
+## Prise en compte par ClientX
+
+Pour que le module fonctionne parfaitement, il faut vous rendre dans votre espace administration puis dans ```Base de données``` puis cliquez sur ```Migrate```.
+
+Le module sera ajouté dans la Base de Données de ClientX.
+
 ## Conclusion
 
 Et voilà, Facile, n'est-ce pas ? Vous êtes prêt à utiliser **Stripe** avec **ClientX** ! 
