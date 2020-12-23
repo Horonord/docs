@@ -26,6 +26,12 @@ Il faudrat ajouter la ligne ```->addModule(App\Virtualizor\VirtualizorModule::cl
 
 Actualisez la page de votre panel admin ClientX et l'option Virtualizor apparaîtra dans les options de création des offres, il vous suffira juste de créer les offres.
 
+## Prise en compte par ClientX
+
+Pour que le module fonctionne parfaitement, il faut vous rendre dans votre espace administration puis dans ```Base de données``` puis cliquez sur ```Migrate```.
+
+Le module sera ajouté dans la Base de Données de ClientX.
+
 ## Conclusion
 
 Et voilà, Facile, n'est-ce pas ? Vous êtes prêt à utiliser **Virtualizor** avec **ClientX** ! 

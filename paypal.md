@@ -25,6 +25,12 @@ Si le mode **Sandbox** est choisi, les paiements ne seront pas pris en compte.
 
 Il vous suffit de valider et c'est tout !
 
+## Prise en compte par ClientX
+
+Pour que le module fonctionne parfaitement, il faut vous rendre dans votre espace administration puis dans ```Base de données``` puis cliquez sur ```Migrate```.
+
+Le module sera ajouté dans la Base de Données de ClientX.
+
 ## Conclusion
 
 Et voilà, Facile, n'est-ce pas ? Vous êtes prêt à reçevoir des paiements **PayPal** avec **ClientX** ! 
