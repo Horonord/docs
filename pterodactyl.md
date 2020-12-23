@@ -21,6 +21,8 @@ Sauvegardez et ClientX se connectera automatiquement à Pterodactyl.
 
 Pour trouver la clef API Utilisateur il faut se rendre dans ```/account/api``` et dans les paramètres API du panel admin pour l'autre clef.
 
+Pour la Clef API Administrateur, assurez-vous de cocher ```Read & Write```.
+
 ## Prise en compte par ClientX
 
 Pour que le module fonctionne parfaitement, il faut vous rendre dans votre espace administration puis dans ```Base de données``` puis cliquez sur ```Migrate```.
