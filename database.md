@@ -1,7 +1,7 @@
 ### Base de données
 
 ## Introduction 
-Pour stocker les données, CLIENTX utilise le système relationnel MySQL. Une base est obligatoire (vierge ou non) pour contenir les tables nécessaires au CM. PDO (PHP Data Objets) est utilisé pour interagir avec la base. Il faut donc que l'extension ainsi que PDO MySQL soit installé sur votre système.
+Pour stocker les données de vos clients et celles nécéssaires au bon fonctionnement du CMS, CLIENTX utilise le système relationnel MySQL. Une base de données est obligatoire (vierge ou non) pour contenir les tables nécessaires au bon fonctionnement du CMS. Le système PDO (PHP Data Objets) est utilisé pour intéragir avec la base. Il faut donc que l'extension MySQL ainsi que PDO soient installés sur votre hébergement WEB.
 
 ## Connexion
 Les informations de connection à la base sont demandées dans le ```.env```. Ce fichier ne doit pas être versionné. Voici un exemple
