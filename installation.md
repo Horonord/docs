@@ -11,6 +11,8 @@
 - Extension ZP
 - Réécriture d'URL
 
+(*Ces dépendances seront automatiquement installés avec l'installation de Composer (mis à part PHP et MySQL)*)
+
 ## Informations
 
 Le CMS peut être installé sur un serveur privé virtuel (VPS), serveur dédié ou hébergement web. Si vous utilisez les deux premières solutions, il sera sûrement nécessaire d'installer vous même les prérequis.
