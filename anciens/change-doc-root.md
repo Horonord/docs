@@ -9,6 +9,12 @@ Sur cette page, vous pourrez modifier la racine du document en ajoutant `/public
 
 Exemple : clientarea.clientx.fr/public
 
+### Changer depuis Cpanel
+
+Pour modifier la racine depuis Cpanel, cliquez sur "**Sous Domaines**" puis vous pouvez cliquer sur le crayon pour le modifier et rajouter le ```/public/``` et enregistrez.
+
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/cpanel/cpanel.png "Cpanel")
+
 ## Changer via Apache
 
 // n /etc/apache2/sites-available/ open the 000-default.conf file, and change the Document Root to the absolute path of your directory.

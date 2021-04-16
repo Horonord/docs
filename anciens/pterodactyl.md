@@ -1,11 +1,12 @@
 ### Pterodactyl
 
 ## Introduction
-[Pterodactyl](https://pterodactyl.io) est un panel de gestion et création de serveurs de Jeux très utilisé dans le monde de l'hébergement basé sur le Framework PHP Laravel. Le Module Pterodactyl est par défaut inclus dans le CMS, en cas contraire, vous pouvez le télécharger sur le market. 
+[Pterodactyl](https://pterodactyl.io) est un panel de gestion et de création de serveurs de Jeux.
 
 ## Mise en Place de Pterodactyl
 
-Pout mettre en place pterodactyl sur votre serveur dédié ou VPS (Virtual Private Server), il suffit de suivre le tutoriel pour installer [le panel](https://pterodactyl.io). Nous proposerons également des options adaptées pour que notre équipe installe le pterodactyl pour vous d'ici peu de temps.
+Pout mettre en place pterodactyl sur votre serveur dédié ou VPS (Virtual Private Server), il suffit de suivre le tutoriel pour installer [le panel](https://pterodactyl.io).
+
 Une fois cela fait, vous pouvez passer à l'étape suivante.
 
 ## Modifier la configuration par défaut des serveurs
@@ -18,7 +19,15 @@ Une fois que Pterodactyl est configuré, il suffit de rentrer les deux clefs API
 
 Sauvegardez et ClientX se connectera automatiquement à Pterodactyl.
 
-Pour trouver la clée API Utilisateur il faut se rendre dans ```/account/api``` et dans les paramètres API du panel admin pour l'autre clée.
+Pour trouver la clef API Utilisateur il faut se rendre dans ```/account/api``` et dans les paramètres API du panel admin pour l'autre clef.
+
+Pour la Clef API Administrateur, assurez-vous de cocher ```Read & Write```.
+
+## Prise en compte par ClientX
+
+Pour que le module fonctionne parfaitement, il faut vous rendre dans votre espace administration puis dans ```Base de données``` puis cliquez sur ```Migrate```.
+
+Le module sera ajouté dans la Base de Données de ClientX.
 
 ## Conclusion
 

@@ -25,3 +25,13 @@ Rendez-vous dans votre dossier où ce trouve CLIENTXCMS.
 Exécutez cette commande `composer install --optimize-autoloader --no-dev` ou adaptez-la pour convenir à votre situation.
 
 Des messages "warning" devraient êtres affichés, pas d'inquiétude, cela impacte pas le CMS.
+
+## Installation de Composer chez Ionos
+
+Si vous êtes chez Ionos, l'installation est plus compliquée. 
+
+Nous vous conseillons de suivre [ce tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
+
+N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez php 7.4 remplacez ```/usr/bin/php7.1-cli``` par ```/usr/bin/php7.4-cli``` et cela dans chaque commande.
+
+Avant chaque commande **composer** ajoutez ```/usr/bin/php7.4-cli``` suivi d'un espace devant chaque commande (*adaptez la version de php*)

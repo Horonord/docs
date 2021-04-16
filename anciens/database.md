@@ -1,10 +1,10 @@
 ### Base de données
 
 ## Introduction 
-Pour stocker les données, CLIENTX utilise le système relationnel MySQL. Une base est obligatoire (vierge ou non) pour contenir les tables nécessaires au CM. PDO (PHP Data Objets) est utilisé pour interagir avec la base. Il faut donc que l'extension ainsi que PDO MySQL soit installé sur votre système.
+Pour stocker les données de vos clients et celles nécéssaires au bon fonctionnement du CMS, CLIENTX utilise le système relationnel MySQL. Une base de données est obligatoire (vierge ou non) pour contenir les tables nécessaires au bon fonctionnement du CMS. Le système PDO (PHP Data Objets) est utilisé pour intéragir avec la base. Il faut donc que l'extension MySQL ainsi que PDO soient installés sur votre hébergement WEB.
 
-## Connecxion
-Les informations de connection à la base sont demandés dans le ```.env```. Ce fichier ne doit pas être versionner. Voici un exemple
+## Connexion
+Les informations de connection à la base sont demandées dans le ```.env```. Ce fichier ne doit pas être versionné. Voici un exemple
 ```
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -13,6 +13,21 @@ DB_USER=root
 DB_PASS=root
 DB_CHARSET=utf8
 ```
+
+# Connexion depuis la 1.0.3
+
+Depuis la 1.0.3, les informations de connexion sont demandées directement dans le fichier **config.php** qui se trouve dans ```config/config.php```.
+
+Voici un exemple des informations à rentrer.
+
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/bdd/bdd.png "Base de Données")
+
+# Caractères Spéciaux
+
+Si vous avez une erreur de connexion à la base de données, c'est que vous avez sûrement mis des caractères spéciaux comme **``` @ %  ```** le fichier .env qui sert à stocker les identifiants (*version 1.0.3 et ultérieure comprise*).
+
+Nous vous demanderons donc d'enlever ces carractères spéciaux et de rééssayer.
+
 ## Tester la connection
 
 Pour vérifier que la connection entre CLIENTX et MySQL soit bien opérationnelle. Ouvrez une page de l'application :
