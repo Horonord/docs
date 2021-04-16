@@ -4,9 +4,9 @@
 
 ![Logo](https://clientx.fr/assets/images/ClientXLight.png "ClientX")
 
-[ClientX](https://clientx.fr/) est votre copilote idéal de dernière génération qui a pour objectif de vous et votre entreprise aider au quotidiens dans l'hébergement de données, gestion de clients, facturation, taxes, création de service et paiement.
+[ClientX](https://clientxc.fr/) est votre copilote idéal de dernière génération qui a pour objectif de vous et votre entreprise aider au quotidiens dans l'hébergement de données, gestion de clients, facturation, taxes, création de service et paiement.
 
-ClientX s'utilise avec des **ressources** pour ajouter facilement des fonctionnalités et personnaliser entièrent votre espace client sans toucher aux sources accèsible facilement sur [notre market](https://clientx.fr/market).
+ClientXCMS s'utilise avec des **ressources** pour ajouter facilement des fonctionnalités et personnaliser entièrent votre espace client sans toucher aux sources accèsible facilement sur [notre market](https://clientx.fr/market).
 Grâce aux nombreux modules ajoutant des fonctionnalités complètes telles que la livraison automatique Proxmox ou le paiement par Paypal et bien plus !
 Des thèmes communautaires sont disponibles pour tous les goûts et envie
 
