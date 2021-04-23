@@ -9,7 +9,7 @@ Pour télécharger CLIENTXCMS :
 
 ### Téléchargement de version antérieur
 
-Pour télécharger une version antérieur de CLIENTXCMS, ouvrez une demande pour télécharger la version.
+Pour télécharger une version antérieure de CLIENTXCMS, ouvrez une demande pour télécharger la version.
 
 ## Création de base de données
 CLIENTXCMS utilise MySQL® pour sauvegarder les données. Vous pouvez en créer une lors de l'installation ou après. [Plus d'informations](https://clientxcms.com/docsc/fr/database)
