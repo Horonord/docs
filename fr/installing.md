@@ -1,6 +1,6 @@
 # Installer CLIENTXCMS
 
-## Téléchargement CLIENTXCMS
+### Téléchargement CLIENTXCMS
 
 Pour télécharger CLIENTXCMS : 
 1. Connectez-vous sur votre espace client
@@ -11,12 +11,12 @@ Pour télécharger CLIENTXCMS :
 
 Pour télécharger une version antérieure de CLIENTXCMS, ouvrez une demande pour télécharger la version.
 
-## Création de base de données
+### Création de base de données
 CLIENTXCMS utilise MySQL® pour sauvegarder les données. Vous pouvez en créer une lors de l'installation ou après. [Plus d'informations](https://clientxcms.com/docsc/fr/database)
 
 - [Création de base de données dans cPanel & WHM](https://docs.cpanel.net/cpanel/databases/mysql-database-wizard/)
 - [Création de base de données dans Plesk](https://docs.plesk.com/en-US/17.0/customer-guide/advanced-website-databases.69535/)
-## Privilège de la base de données
+### Privilège de la base de données
 Les privilèges suivants sont requis :
 - DELETE
 - INSERT
@@ -29,7 +29,8 @@ Pour l'installation, mise à jours, activation / désactivation de module demand
 - DROP
 - INDEX
 
-## Installation CLIENTXCMS
+### Installation de CLIENTXCMS
+
 Pour installer CLIENTXCMS, vous pouvez suivre ce processus : 
 - Unzip l'archive dans un dossier sur votre ordinateur
 - Renomer le fichier `.env.copy` en `.env`
