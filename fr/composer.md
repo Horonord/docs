@@ -1,10 +1,10 @@
 ## Composer
 
-Composer est essentiel pour CLIENTXCMS. 
+Composer est essentiel pour **CLIENTXCMS**. 
 
 ## Installer les dépendances via Plesk
 
-Rendez-vous dans votre hébergement, puis cliquez sur "PHP Composer". à ce moment là, il va vous demander de rechercher le package.json en appuyant sur le bouton bleu. Vous cliquez, il devrait le trouver assez facilement. Puis cliquez sur le bouton "Installer" en haut à gauche.
+Rendez-vous dans votre hébergement, puis cliquez sur "PHP Composer".Plesk va trouver tout seul le ```package.json```, il ne sera donc que nécéssaire de cliquer sur Installer.
 
 ## Installation de Composer
 
@@ -15,8 +15,8 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
-Et vérifiez que la commande `composer` réponde correctement.
-Pour plus d'informations : https://getcomposer.org/
+Et vérifiez que la commande **`composer`** réponde correctement.
+Pour plus d'informations à propos de composer : https://getcomposer.org/
 
 ## Installer les dépendances en cli
 
@@ -30,7 +30,7 @@ Des messages "warning" devraient êtres affichés, pas d'inquiétude, cela impac
 
 Si vous êtes chez Ionos, l'installation est plus compliquée. 
 
-Nous vous conseillons de suivre [ce tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
+Nous vous conseillons de suivre ce e[tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
 
 N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez php 7.4 remplacez ```/usr/bin/php7.1-cli``` par ```/usr/bin/php7.4-cli``` et cela dans chaque commande.
 
