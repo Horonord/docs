@@ -15,6 +15,6 @@ Les autres environements comme Windows sont compatibles mais peuvent rencontrer 
 | :------------ | :-------------: | -------------: |
 | Version PHP   |     7.4         |        7.4     |
 | PDO           |     PDO         |        PDO     |
-| Espace disque | 150 MO          | Aucune limite |
+| Espace disque | 150 MO          |        2 GO    |
 | Version MySQL | 5.2.0           | 8.0.20 (Dernière) |
 | Extensions PHP| CURL JSON XML<br>ZIP MBString Intl |
