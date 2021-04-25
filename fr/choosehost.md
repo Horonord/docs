@@ -1,7 +1,5 @@
 ## Comment Choisir son Hébergeur
 
-![Logo](https://clientxcms.com/Themes/CLIENTXCMS/images/CLIENTXCMS/ClientXDark.png "ClientXCMS")!(img)
-
 Il peut être dûr de choisir son Hébergeur, c'est pourquoi ClientX a choisi de vous aider à le choisir en se basant sur certaines recommandations et surtout sur leur compatibilité avec le CMS.
 
 ClientX est actuellement compatible avec les hébergeurs suivants : 
