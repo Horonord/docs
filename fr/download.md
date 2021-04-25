@@ -26,6 +26,8 @@ Si votre dépot GitHub est privé, il vous faudrat ajouter cette ligne dans le .
 
 Vous pouvez générer une clef API GitHub [ici](https://github.com/settings/tokens).
 
+**Attention, le token ne sera affiché qu'une seule fois !**
+
 ## Fin de la Configuration
 
 Comme pour tous les modules, il faut a la fin se rendre dans **Database** puis cliquer sur **MIGRATE**.
