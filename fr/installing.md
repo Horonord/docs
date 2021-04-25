@@ -24,7 +24,7 @@ Les privilèges suivants sont requis :
 - LOCK TABLES
 
 Pour l'installation, mise à jours, activation / désactivation de module demande les privilèges suivants : 
-- ALTEER
+- ALTER
 - CREATE
 - DROP
 - INDEX
