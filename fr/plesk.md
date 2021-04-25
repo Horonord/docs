@@ -5,7 +5,7 @@
 Pour installer le module plesk, il vous suffit de transférer les fichiers correspondants dans **/src/**, **/views/** et **/Themes/**.
 
 <br>Une fois cela fait, le module s'ajoutera tout seul dans le CMS. 
-<br> **Si ce n'est pas le cas**, il vous suffit d'ajouter la ligne suivante : <br>```->addModule(App\NomDuModule\NomDuModuleModule::class)```
+<br> **Si ce n'est pas le cas**, il vous suffit d'ajouter la ligne suivante : <br>```->addModule(App\Plesk\PleskModule::class)```
 
 Il faut aussi installer **php-xml** en faisait la commande : ```apt install php-xml```.
 
