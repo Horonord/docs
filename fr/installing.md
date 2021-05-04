@@ -39,3 +39,10 @@ Pour installer CLIENTXCMS, vous pouvez suivre ce processus :
 - Ouvrez votre navigateur et rendez-vous sur https://domaine.fr/install pour lancer l'installation.
 - Entrez les informations du compte administrateur "propriétaire" et entrez votre clé de licence.
 Après ceci, vous serrez automatiquement connecté sur le panel d'administration.
+  
+### Changer la racine du CMS
+
+Si vous êtes sur Plesk, changer la racine du CMS est très simple : 
+Allez dans  **Hosting & DNS** puis dans **Hosting Settings** puis modifiez document root.
+
+![image](https://media.discordapp.net/attachments/585094063204728832/839238290753978368/unknown.png)
