@@ -1,28 +1,30 @@
 ## Changer la racine du document
 
-Pour plus de sécurité, CLIENTXCMS a sa racine dans le dossier `/public`. Ce qui est pas fait par defaut dans un hébergement web classique.
+Pour plus de sécurité, comme la plupart des frameworks actuel, CLIENTXCMS a sa racine dans le dossier `/public`.
 
 ### Changer depuis plesk
+La documentation officielle de plesk fournis un article sur la [Modification de la racine du serveur web dans plesk](https://docs.plesk.com/fr-FR/onyx/administrator-guide/h%C3%A9bergement-web/structure-des-r%C3%A9pertoires-de-sites-web/d%C3%A9finir-une-racine-du-document-personnalis%C3%A9e.77500/)
+  ![image](https://docs.plesk.com/fr-FR/onyx/administrator-guide/images/77501.webp)
 
-Pour modifier la racine depuis plesk, Cliquez sur "Hébergement & DNS" ("Hosting & DNS" en anglais) puis "Paramètres d'hébergement" ("Hosting settings" en anglais). 
-Sur cette page, vous pourrez modifier la racine du document en ajoutant `/public` à la suite puis cliquez sur "appliquer" ou "Apply" en anglais.
+**Exemple** : `example.fr/public`
 
-Exemple : clientarea.clientx.fr/public
+### Changer depuis cPanel
 
-### Changer depuis Cpanel
-
-Pour modifier la racine depuis Cpanel, cliquez sur "**Sous Domaines**" puis vous pouvez cliquer sur le crayon pour le modifier et rajouter le ```/public/``` et enregistrez.
-
-![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/images/cpanel/cpanel.png "Cpanel")
+Sur l'interface cPanel, dans la partie domaine (ou sous-domaine), dans la colonne des racines web
+![image](https://raw.githubusercontent.com/ClientXCMS/docs/master/fr/images/cpanel/cpanel.png "Cpanel")
 
 ## Changer via Apache
 
-// n /etc/apache2/sites-available/ open the 000-default.conf file, and change the Document Root to the absolute path of your directory.
 Pour modifier la racine avec un serveur web Apache, Allez dans le dossier `/etc/apache2/sites-available/` et ouvrez le fichier `00-default.conf`. Enfin changez le "Document Root" en ajoutant `/public`
 
-Exemple : 
+**Exemple :**
+```bash
 <VirtualHost *:8080>
     ServerAdmin user@localhost
-    DocumentRoot /var/www/clientx/public
+    DocumentRoot /var/www/clientxcms/public
 </VirtualHost>
+```
 
+Enfin, relancez votre serveur apache pour que vos modifications soient prise en compte
+
+```sudo service apache2 restart```
