@@ -1,10 +1,13 @@
-# Module Paysafecard
+# Module Paysafecard (Sans API)
+Le module Paysafecard sans api permet d'ajouter du solde sur un compte en donnant une paysafecard qui va être remis en crédit.
 
-# Installation
+![Logo de Paysafecard](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paysafecard_logo.svg/799px-Paysafecard_logo.svg.png "Logo de Paysafecard")
 
-Pour installer le module **Paysafecard**, il vous suffit de transférer les fichiers correspondants dans **/src/**, **/views/** et **/Themes/**.
-
-<br>Une fois cela fait, le module s'ajoutera tout seul dans le CMS.
-<br> **Si ce n'est pas le cas**, il vous suffit d'ajouter la ligne suivante : <br>```->addModule(App\Paysafecard\PaysafecardModule::class)```
-
-Puis de cliquer sur **MIGRATE** dans Database.
+## Installation
+Pour plus d'informations sur l'installation du module, [cliquez-ici](https://clientxcms.com/docs/fr/modules)
+## Events
+Nom de l'event       | Description              |
+|------------        | ------------             |
+| paysafecard.submit | Ajout d'une carte        |
+| paysafecard.accept | Acception d'une carte    |
+| paysafecard.refuse | Refus d'une carte        |

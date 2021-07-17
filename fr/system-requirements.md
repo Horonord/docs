@@ -1,11 +1,11 @@
 ### Configuration requise
 
 La plupart des serveurs Web actuels avec PHP et MySQL installés seront capable d'exécuter CLIENTXCMS. 
-Un environement Linux est recommandé car il est compativle avec Apache2. 
-Les autres environements comme Windows sont compatibles mais peuvent rencontrer des problèmes de compatibilité avec lesquels le support technique ne pourrait pas vous aider.
+Un environment Linux est recommandé car il est compatible avec Apache2. 
+Les autres environments comme Windows sont compatibles mais peuvent rencontrer des problèmes de compatibilité avec lesquels le support technique ne pourrait pas vous aider.
 
-## Tableau de compabilité PHP
-| Version de CLIENTX | PHP 7.3    |        PHP 7.4 |
+## Tableau de comptabilité PHP
+| Version de CLIENTXCMS | PHP 7.3    |        PHP 7.4 |
 | :------------ | :-------------: | -------------: |
 | v2.2 DEV      |     Non         |        Oui     |
 

@@ -4,7 +4,9 @@ Composer est essentiel pour **CLIENTXCMS**.
 
 ## Installer les dépendances via Plesk
 
-Rendez-vous dans votre hébergement, puis cliquez sur "PHP Composer".Plesk va trouver tout seul le ```package.json```, il ne sera donc que nécéssaire de cliquer sur Installer.
+Rendez-vous dans votre hébergement, puis cliquez sur "PHP Composer". Plesk va trouver tout seul le ```package.json```, il ne sera donc que nécéssaire de cliquer sur Installer.
+
+(*dans certains cas, il est possible que vous deviez faire un scan dans la section composer*)
 
 ## Installation de Composer
 
@@ -23,17 +25,17 @@ Pour plus d'informations à propos de composer : https://getcomposer.org/
 
 ## Installer les dépendances en cli
 
-Assurez-vous d'avoir bien Composer d'installé sur machine, executez la commande `composer`. Si il ne trouve pas la commander. Installez Composer en vous aidant de la partie "Installation de composer"
-Rendez-vous dans votre dossier où ce trouve CLIENTXCMS. 
+Assurez-vous d'avoir bien Composer d'installé sur votre machine, executez la commande `composer`. Si il ne trouve pas la commande, installez Composer en vous aidant de la partie "Installation de composer"
+Rendez-vous dans votre dossier où se trouve CLIENTXCMS. 
 Exécutez cette commande `composer install --optimize-autoloader --no-dev` ou adaptez-la pour convenir à votre situation.
 
-Des messages "warning" devraient êtres affichés, pas d'inquiétude, cela impacte pas le CMS.
+Des messages "warning" devraient êtres affichés, pas d'inquiétude, cela n'impacte pas le CMS.
 
 ## Installation de Composer chez Ionos
 
 Si vous êtes chez Ionos, l'installation est plus compliquée. 
 
-Nous vous conseillons de suivre ce e[tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
+Nous vous conseillons de suivre ce [tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
 
 N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez php 7.4 remplacez ```/usr/bin/php7.1-cli``` par ```/usr/bin/php7.4-cli``` et cela dans chaque commande.
 

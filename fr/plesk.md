@@ -1,37 +1,28 @@
+
 # Module Plesk
+Le module Plesk permet de fournir des offres Plesk à vos clients. Le module supporte les revendeurs web et hébergement simple.
 
-## Installation
+*Note* : Ce module n'est pas fourni par default, pour plus de détails :  [cliquez ici](https://clientxcms.com/app/Plesk)
 
-Pour installer le module plesk, il vous suffit de transférer les fichiers correspondants dans **/src/**, **/views/** et **/Themes/**.
+*Note 2*: Pour plus d'informations sur l'installation du module, [cliquez-ici](https://clientxcms.com/docs/fr/modules)
+*Note 3*: Il faut avoir **php-xml** sur le serveur. Pour l'installer : `apt install php-xml`
+## Création d'un serveur
 
-<br>Une fois cela fait, le module s'ajoutera tout seul dans le CMS. 
-<br> **Si ce n'est pas le cas**, il vous suffit d'ajouter la ligne suivante : <br>```->addModule(App\Plesk\PleskModule::class)```
+Avant tout, il faut que le module soit activé pour créer un serveur
+Pour plus d'informations sur les serveurs, [cliquez-ici](https://clientxcms.com/docs/fr/servers)
+Vous pouvez tester la connexion au serveur  et vérifier que le serveur renvoie *"Success"*
 
-Il faut aussi installer **php-xml** en faisait la commande : ```apt install php-xml```.
+## Création d'un Produit
 
-## Ajout de dépendances
+Avant tout, il faut que le module soit activé pour créer un produit
+Pour créer un produit, allez dans `Espace d'administration` > `Boutique` > `Produits` > `Nouveau`
+Vous avez le choix entre **Plesk Hosting** et **Plesk Reseller** pour sélectionner le type de produit.
+Vous devez sélectionnez également _"Affichage de l'option domaine"_
 
-Pour le bon fonctionnement du CMS avec le module Plesk, il vous suffit d'ajouter la ligne suivante au fichier **composer.json** : 
-```"plesk/api-php-lib": "^1.0.7"```. 
+- **Plesk Hosting** : Hébergement WEB simple.
+- **Plesk Reseller** : Revendeur WEB.
+  ![image](https://media.discordapp.net/attachments/585094063204728832/836002184134262834/unknown.png)
 
-Cela ressemblera à cela : 
+Après cela, vous serrez rediriger pour vous devez choisir entre les "**Plans**" que vous avez créés **au préalable** sur votre panel Plesk.
 
-![image](https://media.discordapp.net/attachments/585094063204728832/835999899786018846/unknown.png)
-
-Puis faites un **composer install** ou cliquez sur Install depuis Plesk (si vous utilisez plesk).
-
-## Création d'un Produit 
-
-Lorsque vous créez un Produit, vous avez le choix entre **Plesk Hosting** et **Plesk Reseller**
-
-**Plesk Hosting** : C'est un Hébergement WEB simple.
-
-**Plesk Reseller** : C'est un Revendeur WEB.
-
-Après cela, vous devez choisir entre les "**Plans**" que vous avez créés **au préalable** sur votre panel Plesk, sinon, vous ne verrez rien.
-
-![image](https://media.discordapp.net/attachments/585094063204728832/836002184134262834/unknown.png)
-
-## Fin de la Configuration
-
-Comme pour tous les modules, il faut a la fin se rendre dans **Database** puis cliquer sur **MIGRATE**.
+Une fois la configuration faite, vous pouvez commander votre produit pour tester!
