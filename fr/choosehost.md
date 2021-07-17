@@ -7,8 +7,6 @@ ClientXCMS est actuellement compatible avec les hébergeurs suivants :
 
 - [HolyCloud](https://holycloud.fr)
 - [SeaPerf](https://seaperf.com)
-
-
 - [Equi Hosting](https://equi-hosting.fr)
 - [SwizCloud](https://SwizCloud.fr)
 - [BlueServ](https://blueserv.fr)
