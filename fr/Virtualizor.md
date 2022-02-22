@@ -28,7 +28,7 @@ Vous devez choisir **Virtualizor** pour  le type de produit.
 
 
 Après cela, vous serrez rediriger pour vous devez choisir votre plan que vous venez de crée.
-![image](https://media.discordapp.net/attachments/585094063204728832/835995754455105567/unknown.png)
+![image](https://cdn.discordapp.com/attachments/478227951415066624/945730179328790528/unknown.png)
 
 
 
